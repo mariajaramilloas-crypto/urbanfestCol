@@ -8,7 +8,7 @@ body {
 
 header {
   
-    background: url(../Página/Imagenes/Fondo.jpg);
+    background: url(Imagenes/Fondo.jpg);
     background-size: cover;
     background-position: center;
     color: white;
