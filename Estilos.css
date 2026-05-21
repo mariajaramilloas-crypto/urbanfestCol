@@ -1,0 +1,497 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+
+header {
+  
+    background: url(../Página/Imagenes/Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+} 
+nav{
+    background-color:#4f055b;
+    width: 100%;
+    padding: 10px, 0;
+
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0%;
+  padding: 0;
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+
+.banner {
+  text-align: center;
+  padding: 70px 15px;
+}
+.banner h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding:50px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.banner .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f39c12;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.frase{
+    font-size: 30px;
+    color: white;
+    background-color: #908492;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+ padding: 15px 30px;
+    border-radius: 10px;
+    text-shadow:12px black;
+}
+.info{
+    margin-top: 30px;
+}
+
+.info span {
+    background-color: #4f055b;
+    color: white;
+    font-size: 28px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 2px 2px 8px black;
+}
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.frase2{
+background-color:#ffb800;
+padding: 30px;
+text-align: center;
+}
+
+.frase2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+.artistas{
+    background-color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contenido-artistas{
+    background-color: #4f055b;
+    width: 75%;
+    margin: auto;
+    padding: 2
+    0px;
+    border: 12px solid black;
+}
+
+.titulo-artistas{
+    background-color: #5c515e;
+    width: 70%;
+    margin:auto;
+    margin-bottom: 0;
+}
+
+.titulo-artistas h2{
+    color: white;
+    font-size: 70px;
+margin: 0
+}
+
+.titulo-artistas p {
+    color: white;
+    font-size: 30px;
+}
+.imagen-artistas{
+position: relative;
+width: 70%;
+margin: auto;
+}
+.imagen-artistas img{
+    width: 100%;
+    display: block;
+}
+.info-artistas{
+background-color: #d1b56b;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+ padding: 20px;}
+
+ .info-artistas h3{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+ }
+
+.info-artistas a{
+    background-color: #ffb800;
+    color: white;
+    text-decoration:none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 22px;
+    display:inline-block;
+}
+.contenido-pagina{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.contenido{
+    background: #4f055b;
+    padding: 25px;
+    text-align: center;
+}
+.contenido h2{
+    background:#5c515e;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.programacion h3{
+color:#ffb800;
+font-size: 45px;
+margin-top: 20px
+}
+
+.programacion p{
+    color: white;
+    font-size: 30px;
+}
+
+.contenido img{
+    width: 100%;
+    margin:20px 0;
+}
+
+button{
+    background:#ffb800;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 35px; 
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+.texto-logistica{
+color: white;
+font-size: 28px;
+line-height:1.5;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+.entradas-informacion
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30 px;
+    border-radius: 20px;
+        margin: 30px auto;
+        width: 90%;
+}
+.entradas-informacion div{
+    text-align: left;
+    width: 50%;
+}
+.entradas-informacion button{
+    width: 50%;
+}
+.entradas-informacion h3 {
+    color: #ffb800;
+    font-size: 42px;
+    margin bottom: 0;
+}
+
+.entradas-informacion p{
+    color: white;
+    font-size: 28px;
+    margin:0;
+}
+
+.footer{
+    background:#908492;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+
+}
+
+.footer-titulo{
+background: #4f055b;
+padding: 25px 40px;
+
+}
+
+.footer-titulo h3 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.footer-informacion {
+    background:#ffb800;
+    display: flex;
+    gap: 120px;
+    padding: 25px 60px;
+}
+.entradas-informacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+CSS
+/* ==========================================================================
+   AJUSTES GENERALES PARA RESPONSIVE (De escritorio hacia abajo)
+   ========================================================================== */
+
+/* Corrección de sintaxis en contenedores y mejoras de flexibilidad */
+.contenido-artistas {
+    width: 90%; /* Bajamos del 75% para que no quede tan apretado en pantallas medianas */
+    max-width: 1200px;
+    padding: 20px; /* Corregido error de espacio en tu código original */
+}
+
+.titulo-artistas, .imagen-artistas {
+    width: 90%; /* Más espacio para el contenido */
+}
+
+
+
+/* ==========================================================================
+   MEDIA QUERY PARA TABLETS (Máximo 1024px)
+   ========================================================================== */
+@media (max-width: 1024px) {
+    nav a {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 20px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .frase2 h1 {
+        font-size: 30px;
+    }
+
+    .titulo-artistas h2 {
+        font-size: 50px;
+    }
+
+    /* Cambiamos la cuadrícula de 2 columnas a 1 sola columna para que respire el diseño */
+    .contenido-pagina {
+        grid-template-columns: 1fr;
+        width: 95%;
+        gap: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-informacion {
+        gap: 40px;
+        padding: 20px 30px;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERY PARA CELULARES (Máximo 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* Menú de navegación en lista vertical */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    header {
+        height: auto; /* Permite que el contenido no se desborde verticalmente */
+        padding-bottom: 40px;
+    }
+
+    /* Banner principal */
+    .banner h1 {
+        font-size: 32px;
+        padding: 10px;
+        display: block;
+    }
+
+    .frase {
+        font-size: 20px;
+        width: 90%;
+        padding: 10px 15px;
+    }
+
+    .info span {
+        font-size: 20px;
+        display: block; /* Uno debajo del otro en celular */
+        margin: 10px auto;
+        width: fit-content;
+        padding: 5px 15px;
+    }
+
+    .frase2 h1 {
+        font-size: 24px;
+    }
+
+    /* Sección Artistas */
+    .contenido-artistas {
+        width: 95%;
+        border: 6px solid black; /* Reducimos el borde grueso */
+    }
+
+    .titulo-artistas h2 {
+        font-size: 38px;
+    }
+
+    .titulo-artistas p {
+        font-size: 18px;
+    }
+
+    /* Los artistas se acomodan uno debajo del otro */
+    .info-artistas {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .info-artistas h3 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .info-artistas a {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+
+    /* Bloques de Programación, Galería, Logística y Entradas */
+    .contenido h2 {
+        font-size: 32px;
+    }
+
+    .programacion h3 {
+        font-size: 28px;
+    }
+
+    .programacion p, .texto-logistica {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+    /* Sección de Entradas adaptable */
+    .entradas-informacion {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .entradas-informacion div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .entradas-informacion h3 {
+        font-size: 28px;
+    }
+
+    .entradas-informacion p {
+        font-size: 22px;
+    }
+
+    .entradas-informacion button {
+        width: 80%;
+    }
+
+    /* Footer */
+    .footer-titulo h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer-informacion {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Nota: Corregido el selector que tenías en tu CSS original */
+    .footer-informacion a {
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+ 

@@ -1,0 +1,259 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+header {
+  
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+} 
+nav{
+    background-color:#4f055b;
+    width: 100%;
+    padding: 10px, 0;}
+
+    nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0%;
+  padding: 0;
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+}
+
+
+
+.texto-principal{
+
+    width: 40%;
+    background-color: #ffb300;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+.texto-principal h1{
+    font-size: 80px;
+    margin-bottom: 2opx;
+}
+
+.texto-principal p{
+    font-size: 32px;
+    line-height: 1.4;
+}
+.imagen-principal{
+    width: 60%;
+}
+
+.imagen-principal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+    display: block;
+}
+
+.vuelos{
+    background-color: #4f055b;
+    margin: 40px;
+    padding: 50px;
+    text-align: center;
+}
+.contenido.vuelos{
+    background-color: #f39c12;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.contenido.vuelos h2{
+    background-color: #908492;
+    display: inline-block;
+    padding: 15px 80px;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: white;
+}
+.contenido.vuelos p{
+    font-size: 30px;
+    color: white;
+}
+.Subtitulo{
+    background-color: #908492;
+     padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+
+.Subtitulo h3{
+background-color: #908492;
+display: inline-block;
+padding: 20 px 180px;
+font-size: 65px;
+font-weight:bold;
+border-radius: 5px;
+
+}
+
+.contenido-aerolineas{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.aerolineas{
+    width: 280px;
+    text-align: center;
+}
+
+.aerolinea img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.aerolinea p{
+    margin: 20px 0;
+    font-size: 28px;
+    color: white;
+}
+
+.aerolinea a{
+    display: inline-block;
+    background-color:#f39c12;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-size: 28px;
+
+}
+
+.hotel {
+    background-color: #4f055b;
+    margin: 40px;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hotel h2 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.hotel p{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.hotel a{
+    display: inline-block;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-size: 35px;
+}
+
+
+
+
+
+/* --- ADAPTACIÓN PARA TABLETS (Pantallas menores a 1024px) --- */
+@media (max-width: 1024px) {
+  nav ul { gap: 20px; }
+  nav a { font-size: 20px; }
+  
+  .texto-principal h1 { font-size: 55px; }
+  .texto-principal p { font-size: 24px; }
+  
+  .contenido.vuelos h2 { font-size: 45px; padding: 15px 50px; }
+  .Subtitulo h3 { font-size: 45px; }
+  .hotel h2 { font-size: 60px; }
+}
+
+/* --- ADAPTACIÓN PARA CELULARES (Pantallas menores a 768px) --- */
+@media (max-width: 768px) {
+  /* Menú en lista vertical */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  nav a { font-size: 22px; }
+
+  /* Se apila el banner principal: texto arriba, avión abajo */
+  .principal {
+    flex-direction: column;
+  }
+  .texto-principal {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .texto-principal h1 { font-size: 45px; }
+  .texto-principal p { font-size: 22px; }
+  
+  .imagen-principal {
+    width: 100%;
+    height: 250px; /* Controla el alto del avión en pantallas móviles */
+  }
+  .imagen-principal img {
+    object-position: center; /* En móviles queda mejor centrado */
+  }
+
+  /* Reducción de cajas moradas */
+  .vuelos, .hotel {
+    margin: 15px;
+    padding: 30px 15px;
+  }
+
+  /* Contenido Vuelos */
+  .contenido.vuelos h2 {
+    font-size: 35px;
+    padding: 10px 30px;
+  }
+  .contenido.vuelos p { font-size: 20px; }
+
+  /* Subtítulo aerolíneas */
+  .Subtitulo h3 {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+
+  /* Aerolíneas una debajo de otra */
+  .contenido-aerolineas {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .aerolinea p, .aerolinea a { font-size: 22px; }
+
+  /* Hospedaje */
+  .hotel h2 { font-size: 45px; }
+  .hotel p { font-size: 22px; }
+  .hotel a { font-size: 24px; padding: 15px 40px; }
+}
